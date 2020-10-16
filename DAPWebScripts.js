@@ -11,3 +11,7 @@ function runAPI() {
     alert(obj);
   });
 }
+
+function OnLoadTest() {
+ 	alert("Yeet"); 
+}
