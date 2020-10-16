@@ -11,3 +11,6 @@ function runAPI() {
     alert(obj);
   });
 }
+
+document.body.setAttribute('id', 'bodyID');
+document.getElementById("bodyID").onload = function() {runAPI()};
